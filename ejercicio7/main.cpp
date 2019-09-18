@@ -5,9 +5,13 @@ using namespace std;
 int main() {
 
 entero numero;
-cin >> numero;
+  do{
+     cout<<"Ingresa un numero: "<<endl;
+     cin >> numero;
+  }while(numero>30 || numero<10);
+  for (int c=0;c<numero;c++){
+   cout<<"*"; 
+  }
 
-// ToDO
-// implemente el algoritmo.
   return 0;
 }
